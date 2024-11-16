@@ -1,0 +1,46 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# dev files to run project in expo go
+src/service/index.dev.ts
+src/service/auth/AccountService.dev.ts
+src/service/food/FoodSearchService.dev.ts
+src/service/userSync/UserSyncService.dev.ts
+app.dev.json
+package.dev.json
+
+config.ts
+GoogleService-Info.plist
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
